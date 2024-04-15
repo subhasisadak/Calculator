@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CalcContainer{
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgb(159, 188, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calc{
+    background-color: rgb(20, 17, 58);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Calc form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .Display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .Display input{
+    text-align: right;
+    flex: 1;
+    font-size: 30px;
+    box-shadow: none;
+    background-color: rgb(1, 14, 9);
+    overflow: auto;
+    display: flex;
+}
+
+.Calc form .Equal{
+    width: 145px;
+}
